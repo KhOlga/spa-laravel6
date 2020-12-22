@@ -15,17 +15,16 @@
 
     <body class="font-sans">
         <div id="app">
-            <div class="container mx-auto">
-                <header class="py-6 mb-8">
-                    <h1>
-                        <img alt="SPA" src="/images/logo.svg" style="width: 5em; height: auto">
-                    </h1>
-                </header>
-
+            <header class="py-6 mb-8 pb-10">
+                <h1>
+                    <img alt="SPA" src="/images/logo.svg" style="width: 5em; height: auto">
+                </h1>
+            </header>
+            <div class="container px-8">
                 <main class="flex">
-                    <aside class="w-1/5">
-                        <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-4">The Brand</h5>
+                    <aside class="w-64 pt-8">
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-35 text-base">The Brand</h5>
 
                             <ul class="list-reset">
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/" exact>Logo</router-link></li>
@@ -35,7 +34,7 @@
                             </ul>
                         </section>
 
-                        <h5 class="uppercase font-bold mb-6">Doodles</h5>
+                        <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                         <section>
                             <ul class="list-reset">
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/theme">Theme</router-link></li>
