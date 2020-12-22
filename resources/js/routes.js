@@ -7,6 +7,8 @@ import Wallpapers from "./components/Wallpapers";
 import Theme from "./components/Theme";
 import Typography from "./components/Typography";
 import NotFound from "./components/NotFound";
+import SiteStats from "./components/SiteStats";
+import Tasks from "./components/Tasks";
 
 export default {
     mode: 'history',
@@ -52,6 +54,14 @@ export default {
             path: '/typography',
             component: Typography,
         },
+        {
+            path:  '/site-stats',
+            component: SiteStats,
+        },
+        {
+            path: '/tasks',
+            component: Tasks,
+        }
     ]
 
 }

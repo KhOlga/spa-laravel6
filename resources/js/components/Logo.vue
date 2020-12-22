@@ -38,7 +38,6 @@
                 >negative-logo.svg</a>
             </div>
         </div>
-
         <div>
             <picture
                 style="height: 382px;"

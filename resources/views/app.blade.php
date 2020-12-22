@@ -23,7 +23,7 @@
             <div class="container px-8">
                 <main class="flex">
                     <aside class="w-64 pt-8">
-                        <section class="mb-10">
+                        <div class="mb-10">
                             <h5 class="uppercase font-bold mb-35 text-base">The Brand</h5>
 
                             <ul class="list-reset">
@@ -32,17 +32,26 @@
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/colors">Colors</router-link></li>
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/typography">Typography</router-link></li>
                             </ul>
-                        </section>
+                        </div>
 
-                        <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
-                        <section>
+
+                        <div class="mb-10">
+                            <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                             <ul class="list-reset">
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/theme">Theme</router-link></li>
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/illustrations">Illustrations</router-link></li>
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/animations">Animations</router-link></li>
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
-                        </section>
+                        </div>
+
+                        <div>
+                            <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+                            <ul class="list-reset">
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/site-stats">Site Stats</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/tasks">Your Tasks</router-link></li>
+                            </ul>
+                        </div>
                     </aside>
 
                     <div class="primary flex-1">
